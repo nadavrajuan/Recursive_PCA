@@ -1,2 +1,2 @@
-# Recursive_PCA
-A Multi-layer PCA Transformer
+# RecursivePCA: A Multi-layer PCA Transformer
+A Python class leveraging Scikit-learn to implement a sequence of PCA transformations, reducing data dimensionality layer-by-layer. Starting with the original data dimension, each successive PCA layer compresses the data further, allowing for progressive dimensionality reduction. Useful for visualizing data transformations at each step and exploring the efficacy of consecutive PCA layers in data compression.
